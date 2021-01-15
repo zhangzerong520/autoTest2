@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.test_login",
+    "children" : [ {
+      "name" : "test_login[zerong.zhang-RK0A9ICT]",
+      "uid" : "ccf505b1be7b24f9",
+      "parentUid" : "6d38d5b6e2efe4acae4f0eaed7cfdf95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610692325513,
+        "stop" : 1610692326548,
+        "duration" : 1035
+      },
+      "flaky" : false,
+      "parameters" : [ "'RK0A9ICT'", "'zerong.zhang'" ]
+    }, {
+      "name" : "test_login[xiaobai-369369]",
+      "uid" : "a4420c537cf847a3",
+      "parentUid" : "6d38d5b6e2efe4acae4f0eaed7cfdf95",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610692344947,
+        "stop" : 1610692345764,
+        "duration" : 817
+      },
+      "flaky" : false,
+      "parameters" : [ "'369369'", "'xiaobai'" ]
+    } ],
+    "uid" : "scripts.test_login"
+  } ]
+}

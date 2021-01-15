@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'http://119.2.../home/welcome' == 'http://119.2...r/check_login'\n  - http://119.29.235.245:9003/index.php/user/check_login\n  ?                                      ^^ -  ^ --------\n  + http://119.29.235.245:9003/index.php/home/welcome\n  ?                                      ^^^  +++ ^^",
+      "children" : [ {
+        "name" : "test_login[xiaobai-369369]",
+        "uid" : "a4420c537cf847a3",
+        "parentUid" : "713e4fc31dace97a51c514858f67b88a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610692344947,
+          "stop" : 1610692345764,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "parameters" : [ "'369369'", "'xiaobai'" ]
+      } ],
+      "uid" : "713e4fc31dace97a51c514858f67b88a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

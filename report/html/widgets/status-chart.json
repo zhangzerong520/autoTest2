@@ -1,0 +1,21 @@
+[ {
+  "uid" : "ccf505b1be7b24f9",
+  "name" : "test_login[zerong.zhang-RK0A9ICT]",
+  "time" : {
+    "start" : 1610692325513,
+    "stop" : 1610692326548,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4420c537cf847a3",
+  "name" : "test_login[xiaobai-369369]",
+  "time" : {
+    "start" : 1610692344947,
+    "stop" : 1610692345764,
+    "duration" : 817
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

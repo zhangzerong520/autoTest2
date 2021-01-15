@@ -1,0 +1,41 @@
+{
+  "6f4fc89070a9b8ef64a319ac8b95c8a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccf505b1be7b24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610692325513,
+        "stop" : 1610692326548,
+        "duration" : 1035
+      }
+    } ]
+  },
+  "020cdc82b0ced34fc116c6bf357ea525" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4420c537cf847a3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'http://119.2.../home/welcome' == 'http://119.2...r/check_login'\n  - http://119.29.235.245:9003/index.php/user/check_login\n  ?                                      ^^ -  ^ --------\n  + http://119.29.235.245:9003/index.php/home/welcome\n  ?                                      ^^^  +++ ^^",
+      "time" : {
+        "start" : 1610692344947,
+        "stop" : 1610692345764,
+        "duration" : 817
+      }
+    } ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_login",
+        "children" : [ {
+          "name" : "test_login[zerong.zhang-RK0A9ICT]",
+          "uid" : "ccf505b1be7b24f9",
+          "parentUid" : "89f34d926eaee0a877d184de6c938deb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610692325513,
+            "stop" : 1610692326548,
+            "duration" : 1035
+          },
+          "flaky" : false,
+          "parameters" : [ "'RK0A9ICT'", "'zerong.zhang'" ]
+        }, {
+          "name" : "test_login[xiaobai-369369]",
+          "uid" : "a4420c537cf847a3",
+          "parentUid" : "89f34d926eaee0a877d184de6c938deb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1610692344947,
+            "stop" : 1610692345764,
+            "duration" : 817
+          },
+          "flaky" : false,
+          "parameters" : [ "'369369'", "'xiaobai'" ]
+        } ],
+        "uid" : "89f34d926eaee0a877d184de6c938deb"
+      } ],
+      "uid" : "5308816e98be8877fda327cc882cfe13"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}
